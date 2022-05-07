@@ -1,0 +1,285 @@
+.menu{
+    width: 100%;
+    height: 85px;
+    background-color: darkslategray;
+    position: relative;
+ 
+}
+
+.navbar-list{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-family: Mtavruli;
+
+}
+@font-face {
+    font-family: burbank;
+    src: url('fonts/BurbankBigCondensed-Bold.otf');
+}
+@font-face{
+    font-family: chinese;
+    src: url('fonts/chinese\ rocks\ rg.otf');
+}
+
+@font-face{
+    font-family: PhyllySans;
+    src: url('fonts/PhillySans.otf');
+}
+
+@font-face{
+    font-family: smarc;
+    src: url('fonts/SMARC___.TTF');
+}
+
+@font-face {
+    font-family: Mtavruli;
+    src: url('fonts/bpg_nino_mtavruli_bold.ttf');
+}
+
+p{
+    font-family: chinese;
+}
+
+h3{
+    font-family: Phyllysans;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    font-family: Mtavruli;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.login-text{
+    font-family: Mtavruli;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.navbar-login-text{
+    display: inline-block;
+    list-style: none;
+    margin-right: 3px;
+    margin-top: -5px;
+}
+
+.navbar-login{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 22px;
+
+}
+
+.register{
+    border:2px solid white;
+    background-color: tomato;
+    padding: 0px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Mtavruli;
+}
+
+.navbar-register{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.login-text1{
+    font-family: Mtavruli;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    border:2px solid rgba(255, 255, 255, 0.411);
+    background-color: rgb(40, 168, 147);
+    border-radius: 10px;
+    padding: 2px 6px;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: darkslategray;
+    font-family: Mtavruli;
+    padding: 10px 0px;
+    
+    
+}
+
+.content{
+    display: flex;
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    /* padding-bottom: ; */
+    
+
+
+}
+
+.watermark{
+    width: fit-content;
+    margin:auto;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 3px 6px 20px black;
+    display:inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    position: relative;
+
+}
+.photo{
+    width: 60%;
+}
+
+.ordernow{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+    background-color: rgba(42, 185, 185, 0.795);
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-family: burbank;
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+
+
+}
+
+.addtocard{
+    width: fit-content;
+    text-decoration: none;
+    display: inline-block;
+    color: gray;
+    padding: 5px 5px;
+    margin-left: 85px;
+    font-family: burbank;
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+
+}
+
+.site-footer{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(7, 6, 23);
+    padding-bottom: 3px;
+}
+
+.about{
+    font-size: 25px;
+    color: white;
+}
+
+.copyright-text{
+    color: white;
+
+}
+
+.luka-link{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+div.videoMiniImage {
+    box-shadow: 1px 5px 10px black;
+    padding: 0;
+    margin-top: 10px;
+    position: absolute;
+    width: fit-content;
+    float: right;
+    width: 190px;
+    height: 133px;
+    border-width: 0px;
+    border-color: red;
+    border-style: solid;
+    text-align: right;
+}
+div.videoMiniFill1 {
+    position: absolute;
+    left: 13px;
+    top: 22px;
+    width: 171px;
+    height: 87px;
+    border-width: 0px;
+    border-color: red;
+    border-style: solid;
+    overflow: hidden;
+}
+div.videoMiniFill2 {
+    position: absolute;
+    left: 0px;
+    top: -23px;
+    width: 171px;
+    height: 128px;
+    border-width: 0px;
+    border-color: blue;
+    border-style: solid;
+}
+.duster{
+    width: 200px;
+    height: 100px;
+
+}
